@@ -51,7 +51,7 @@
 
 ```
 
-### Step 4：測試你的程式碼
+### Step 5：測試你的程式碼
 
 ```bash
 # 起 server + Postman / Swagger UI 自我檢查
@@ -145,7 +145,7 @@ node-js-week3-2026/
      * `POST /uploadImage` 附檔案（Body → `form-data`，Key: `image`，類型選 **File**）→ **200**，`{ filename, sizeKB, savedPath }`
      * `POST /uploadImage` 不附檔案 → **400**，`{ error: 'No file uploaded' }`
 
-## 使用 `npm test` 來完整測試：
+### 使用 `npm test` 來完整測試：
 
 測試結果說明：
 
